@@ -1,0 +1,14 @@
+<p>
+  {{category}} works! 
+</p>
+
+<div *ngIf='resp' >
+  <p>status: {{resp.status}}</p>
+  <!-- <p>total results: {{resp.total_results}}</p> -->
+  <div *ngFor='let article of resp.articles' class='newscard'>
+    <img [src]='article.urlToImage'/>
+    <a [href]="article.url" target="blank"><h2>{{article.title}}</h2></a>
+    <p>{{article.description}}</p>
+  </div>
+
+</div>

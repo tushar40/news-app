@@ -1,0 +1,27 @@
+.newscard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 0.1px solid black;
+    overflow: hidden;             /* Fixes the corners */
+    border-radius: 5px; /* 5px rounded corners */
+    font-family: sans-serif;
+    margin: 1%;
+  }
+
+  .newscard h2 {
+    color:black;
+    /* text-align: center; */
+    font-size: 24px;
+    font-weight: bold;
+    /* border-bottom: 1px solid #EF9A9A; */
+    /* background-color: #FFEBEE; */
+    padding: 5px 10px;
+  }
+
+  .newscard img{
+    width: 100%;
+  }
+
+  .newscard p{
+    padding: 5px 10px;
+    /* overflow: auto */
+  }
